@@ -1,6 +1,6 @@
 (() => {
 const {groups,translations}=window.CENTER_DATA;
-let lang='kk', category='all';
+let lang='ru', category='all';
 try{const saved=localStorage.getItem('amir-med-language');if(saved==='ru'||saved==='kk')lang=saved;}catch{}
 const $=s=>document.querySelector(s);
 function whatsapp(service='',address=''){
